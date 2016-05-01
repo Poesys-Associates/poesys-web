@@ -1,0 +1,38 @@
+/*---------------------------------
+ *	News slider > Horizontal
+ *---------------------------------*/	
+.newslider-horizontal{width:652px;height:414px;}
+
+/* Nav */
+.newslider-horizontal .sliderkit-nav{
+	position:absolute;
+	bottom:0;
+	width:652px;
+	height:77px; 
+	font-family: "Lucida Grande", Tahoma, Verdana, Arial, sans-serif; 
+	text-transform: uppercase; 
+	font-size: .7em; 
+	border-top: 1px solid #CCC;
+	background: url('../img/bg-bottom-shadow.png') bottom repeat-x;
+}
+.newslider-horizontal .sliderkit-nav-clip li{float:left;height:60px;width:163px; position: relative;}
+.newslider-horizontal .sliderkit-nav-clip li img {position: absolute; top: -10px; left: 66px; visibility: hidden;}
+.newslider-horizontal .sliderkit-nav-clip li.sliderkit-selected{ background-color: rgba(255, 255, 255, 0.5);}
+.newslider-horizontal .sliderkit-nav-clip li.sliderkit-selected img {visibility: visible;}
+.newslider-horizontal .sliderkit-nav-clip li a{height:45px;width:103px;padding:15px 30px 0;margin:0;text-align:center;font-size:1em;color:#4c4f48;text-decoration:none;}
+.newslider-horizontal .sliderkit-nav-clip li.sliderkit-selected a {color:#49628c;}
+.newslider-horizontal .sliderkit-nav-clip li a:hover,
+.newslider-horizontal .sliderkit-nav-clip li a:focus{color:#06e;}
+.newslider-horizontal .sliderkit-nav-clip li.sliderkit-selected a:hover,
+.newslider-horizontal .sliderkit-nav-clip li.sliderkit-selected a:focus {color:#49628c;}
+
+
+/* Panel */
+.newslider-horizontal .sliderkit-panels{position:absolute;left:0;width:652px;height:337px;overflow:hidden;}
+.newslider-horizontal .sliderkit-panel{left:0;top:0;width:652px;height:257px;padding:40px 0;}
+
+/* News block */
+.newslider-horizontal .sliderkit-news h3,
+.newslider-horizontal .sliderkit-news h3 a{color:#000;font-weight:bold;}
+.newslider-horizontal .sliderkit-news h3{font-size:1.2em;margin:0 0 15px;}
+
