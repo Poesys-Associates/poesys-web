@@ -28,8 +28,8 @@
 
 
 /* Panel */
-.newslider-horizontal .sliderkit-panels{position:absolute;left:0;width:652px;height:337px;overflow:hidden;}
-.newslider-horizontal .sliderkit-panel{left:0;top:0;width:652px;height:257px;padding:40px 0;}
+.newslider-horizontal .sliderkit-panels{position:absolute;left:0;width:652px;height:550px;overflow:hidden;}
+.newslider-horizontal .sliderkit-panel{left:0;top:0;width:652px;height:550px;padding:40px 0;}
 
 /* News block */
 .newslider-horizontal .sliderkit-news h3,
