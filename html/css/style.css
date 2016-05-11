@@ -203,7 +203,6 @@ footer {width: 996px; margin: 0 auto; padding: 20px 0; font-family: "Lucida Gran
 
 .title-bar {padding-bottom: 30px; background: url('img/bg-top-shadow.png') bottom left repeat-x;}
 .title-bar span { text-transform: uppercase; font-size: .9em; letter-spacing: .1em; }
-.title-bar a {text-transform: none;}
 
 #coming-soon div img {float: left; padding-right: 20px; padding-bottom: 15px;}
 #coming-soon h3 {padding-bottom: 10px;}
