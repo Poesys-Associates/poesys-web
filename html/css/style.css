@@ -1,15 +1,3 @@
-/*
-Theme Name:     SM STIRLING
-Theme URI:      http://aarontgrogg.com/boilerplate/
-Description:    Child theme for the Boilerplate theme 
-Author:         Matt Jurgemeyer
-Author URI:     http://weaffect.com
-Template:       boilerplate
-Version:        0.1.0
-*/
-
-/* HTML5 Boilerplate  */
-
 article, aside, details, figcaption, figure, footer, header, hgroup, nav, section { display: block; }
 audio, canvas, video { display: inline-block; *display: inline; *zoom: 1; }
 audio:not([controls]) { display: none; }
@@ -124,12 +112,11 @@ td { vertical-align: top; }
 .col1,.col2,.col3,.col4,.col5,.col6,.col7,.col8,.col9,.col10,.col11 {padding-right: 36px; float: left;}
 .last {padding-right: 0px;} 
 
-/* Custom Styles for S.M. Stirling  */
-p {font-size: .8em; line-height: 1.7em;}
-#sidebar p {font-size: .75em; line-height: 1.6em;}
+p {font-size: 1em; line-height: 1.5em;}
+#sidebar p {font-size: .8em; line-height: 1.3em;}
 
 
-html {background: url('img/bg-body.jpg'); background-position: top center; background-repeat: no-repeat; background-color: #253751;}
+html {background: url('/img/background.png'); background-position: top center; background-repeat: no-repeat; background-color: #253751;}
 
 body{
 	background: url('img/bg-main.jpg') top center repeat-y;
