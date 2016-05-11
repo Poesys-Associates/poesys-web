@@ -119,7 +119,7 @@ p {font-size: 1em; line-height: 1.5em;}
 html {background: url('/img/background.png'); background-position: top center; background-repeat: no-repeat; background-color: #253751;}
 
 body{
-	background: url('img/bg-paper-tan-transparent.png') top center repeat-y;
+	background: url('/img/bg-paper-tan-transparent.png') top center repeat-y;
 	margin: 176px auto 0;
 }
 
