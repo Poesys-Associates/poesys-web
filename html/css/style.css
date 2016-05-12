@@ -142,7 +142,7 @@ nav .menu a:visited {color: #666666;}
 nav .menu a:hover { color: #06e; }
 
 h1,h2,h3,h4,nav {font-family: Verdana, Geneva, sans-serif; }
-h1 {font-weight: 300; font-size: 3.6em; font-style: normal; padding: 0px; margin: 0px; line-height: 1em;}
+h1 {font-weight: 300; font-size: 3.0em; font-style: normal; padding: 0px; margin: 0px; line-height: 1em;}
 h2 {font-weight: 300; font-size: 1.4em; color: #49628c; padding: 0px; margin: 0px; line-height: 1em; }
 h2 a {text-decoration: none; color: #49628c !important;}
 h2 span {font-size: .45em; color: #999; font-family: "Lucida Grande", Tahoma, Verdana, Arial, sans-serif;}
