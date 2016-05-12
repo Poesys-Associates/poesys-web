@@ -135,13 +135,13 @@ header{
 
 nav .menu {padding-top: 5px;}
 nav .menu li {display: inline; text-transform: uppercase; padding: 5px 55px 13px; font-weight: 300;}
-nav .menu li.current_page_item {background: url('img/bg-nav.png') bottom center no-repeat;}
-nav .menu li.current_page_item a {color: #FFF; font-weight: 500;}
-nav .menu a { color:#a4b1bf; letter-spacing: .2em; text-decoration: none;}
-nav .menu a:visited {color: #a4b1bf;}
+nav .menu li.current_page_item {background: url('/img/bg-nav.png') bottom center no-repeat;}
+nav .menu li.current_page_item a {color: #331a00; font-weight: 500;}
+nav .menu a { color:#666666; letter-spacing: .2em; text-decoration: none;}
+nav .menu a:visited {color: #666666;}
 nav .menu a:hover { color: #06e; }
 
-h1,h2,h3,h4,nav {font-family: "brandon-grotesque",sans-serif; }
+h1,h2,h3,h4,nav {font-family: Verdana, Geneva, sans-serif; }
 h1 {font-weight: 300; font-size: 3.6em; font-style: normal; padding: 0px; margin: 0px; line-height: 1em;}
 h2 {font-weight: 300; font-size: 1.4em; color: #49628c; padding: 0px; margin: 0px; line-height: 1em; }
 h2 a {text-decoration: none; color: #49628c !important;}
@@ -198,7 +198,7 @@ ul.order li.indie {background-position: 0px -100px;}
 
 
 #content {padding: 40px 0 70px; width: 652px;}
-footer {width: 996px; margin: 0 auto; padding: 20px 0; font-family: "Lucida Grande", Tahoma, Verdana, Arial, sans-serif; font-size: .7em; border-top: 1px solid #bbb;}
+footer {width: 996px; margin: 0 auto; padding: 20px 0; font-family: "Lucida Grande", Tahoma, Verdana, Arial, sans-serif; font-size: .7em; border-top: 1px solid #331a00;}
 
 
 .title-bar {padding-bottom: 30px; background: url('img/bg-top-shadow.png') bottom left repeat-x;}

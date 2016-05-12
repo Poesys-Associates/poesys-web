@@ -12,7 +12,7 @@
 	font-family: "Lucida Grande", Tahoma, Verdana, Arial, sans-serif; 
 	text-transform: uppercase; 
 	font-size: .7em; 
-	border-top: 1px solid #CCC;
+	border-top: 1px solid #331a00;
 	background: url('../img/bg-bottom-shadow.png') bottom repeat-x;
 }
 .newslider-horizontal .sliderkit-nav-clip li{float:left;height:60px;width:163px; position: relative;}
