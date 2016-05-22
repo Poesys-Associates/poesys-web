@@ -1,5 +1,5 @@
 article, aside, details, figcaption, figure, footer, header, hgroup, nav, section { display: block; }
-audio, canvas, video { display: inline-block; *display: inline; *zoom: 1; }
+audio, canvas, video { display: inline-block; }
 audio:not([controls]) { display: none; }
 [hidden] { display: none; }
 
@@ -44,12 +44,12 @@ form { margin: 0; }
 fieldset { border: 0; margin: 0; padding: 0; }
 
 label { cursor: pointer; }
-legend { border: 0; *margin-left: -7px; padding: 0; white-space: normal; }
-button, input, select, textarea { font-size: 100%; margin: 0; vertical-align: baseline; *vertical-align: middle; }
+legend { border: 0; padding: 0; white-space: normal; }
+button, input, select, textarea { font-size: 100%; margin: 0; vertical-align: baseline; }
 button, input { line-height: normal; }
-button, input[type="button"], input[type="reset"], input[type="submit"] { cursor: pointer; -webkit-appearance: button; *overflow: visible; }
+button, input[type="button"], input[type="reset"], input[type="submit"] { cursor: pointer; -webkit-appearance: button; }
 button[disabled], input[disabled] { cursor: default; }
-input[type="checkbox"], input[type="radio"] { box-sizing: border-box; padding: 0; *width: 13px; *height: 13px; }
+input[type="checkbox"], input[type="radio"] { box-sizing: border-box; padding: 0; }
 input[type="search"] { -webkit-appearance: textfield; -moz-box-sizing: content-box; -webkit-box-sizing: content-box; box-sizing: content-box; }
 input[type="search"]::-webkit-search-decoration, input[type="search"]::-webkit-search-cancel-button { -webkit-appearance: none; }
 button::-moz-focus-inner, input::-moz-focus-inner { border: 0; padding: 0; }
@@ -67,7 +67,7 @@ td { vertical-align: top; }
 
 }
 
-.ir { display: block; border: 0; text-indent: -999em; overflow: hidden; background-color: transparent; background-repeat: no-repeat; text-align: left; direction: ltr; *line-height: 0; }
+.ir { display: block; border: 0; text-indent: -999em; overflow: hidden; background-color: transparent; background-repeat: no-repeat; text-align: left; direction: ltr; }
 .ir br { display: none; }
 .hidden { display: none !important; visibility: hidden; }
 .visuallyhidden { border: 0; clip: rect(0 0 0 0); height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute; width: 1px; }
@@ -75,7 +75,6 @@ td { vertical-align: top; }
 .invisible { visibility: hidden; }
 .clearfix:before, .clearfix:after { content: ""; display: table; }
 .clearfix:after { clear: both; }
-.clearfix { *zoom: 1; }
 .right {float: right; display: block;}
 .left {float: left; display: block;}
 
@@ -141,7 +140,7 @@ nav .menu a { color:#666666; letter-spacing: .2em; text-decoration: none;}
 nav .menu a:visited {color: #666666;}
 nav .menu a:hover { color: #06e; }
 
-h1,h2,h3,h4,nav {font-family: V"Lucida Grande", Tahoma, Verdana, Arial, sans-serif; }
+h1,h2,h3,h4,nav {font-family: "Lucida Grande", Tahoma, Verdana, Arial, sans-serif; }
 h1 {font-weight: 300; font-size: 3.6em; font-style: normal; padding: 0px 0px 5px 0px; margin: 0px; line-height: 1em;}
 h2 {font-weight: 300; font-size: 1.4em; color: #49628c; padding: 0px; margin: 0px; line-height: 1em; }
 h2 a {text-decoration: none; color: #49628c !important;}
@@ -256,7 +255,6 @@ ul.details li {font-size: .8em;}
 .series-specs {float: right; font-size: .7em; padding-top: 8px;}
 
 .series .book {width: 194px; padding: 10px; text-align: center; display: inline-block;}
-.series .book {*display:inline; *zoom:1;} /*ie hack for inline-block */
 .series .book span {color: #999; font-size: .8em; display: block;}
 .series .book img {padding: 10px 0; display: block; margin: 0px auto;}
 .series .book span.booktype {text-transform: uppercase; font-size: .7em; color: #666;}
