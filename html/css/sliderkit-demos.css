@@ -1,7 +1,7 @@
 /*---------------------------------
  *	News slider > Horizontal
  *---------------------------------*/	
-.newslider-horizontal{width:652px;height:650px;}
+.newslider-horizontal{width:652px;height:700px;}
 
 /* Nav */
 .newslider-horizontal .sliderkit-nav{
@@ -28,8 +28,8 @@
 
 
 /* Panel */
-.newslider-horizontal .sliderkit-panels{position:absolute;left:0;width:652px;height:600px;overflow:hidden;}
-.newslider-horizontal .sliderkit-panel{left:0;top:0;width:652px;height:600px;padding:40px 0;}
+.newslider-horizontal .sliderkit-panels{position:absolute;left:0;width:652px;height:650px;overflow:hidden;}
+.newslider-horizontal .sliderkit-panel{left:0;top:0;width:652px;height:650px;padding:40px 0;}
 
 /* News block */
 .newslider-horizontal .sliderkit-news h3,
