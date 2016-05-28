@@ -33,11 +33,11 @@ body {
 }
 
 a {
-	color: #848a46;
+	color: #003333;
 }
 
 a:visited {
-	color: #848a46;
+	color: #003366;
 }
 
 a:hover {
@@ -519,7 +519,7 @@ h3 {
 bookTitle {
 	font-weight: 300;
 	font-size: 1.4em;
-	color: #49628c;
+	color: #003333;
 	padding: 0px;
 	margin: 0px;
 	line-height: 1em;
@@ -1016,11 +1016,6 @@ ul.details li {
 
 .single-fanart .entry-content .col2 {
 	padding-bottom: 15px;
-}
-
-ul.rating {
-	padding-left: 0px;
-	background: none;
 }
 
 #book-reviews ol {
