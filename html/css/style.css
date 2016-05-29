@@ -8,22 +8,32 @@ audio, canvas, video {
 }
 
 audio
+
+
 :not
+
  
+
 (
 [
 controls
 ]
+
  
+
 )
 {
 display
+
+
 :
+
  
+
 none
+
+
 ;
-
-
 }
 [hidden] {
 	display: none;
@@ -167,20 +177,30 @@ img {
 }
 
 svg
+
+
 :not
+
  
+
 (
 :root
+
  
+
 )
 {
 overflow
+
+
 :
+
  
+
 hidden
+
+
 ;
-
-
 }
 figure {
 	margin: 0;
@@ -791,25 +811,22 @@ ul.details li {
 	letter-spacing: .15em;
 }
 
-.mini-bio .fb, .mini-bio .gr {
-	float: left;
-	width: 85px;
-	height: 30px;
-	padding-left: 35px;
-	font-family: "Lucida Grande", Tahoma, Verdana, Arial, sans-serif;
-	font-size: .7em;
-}
-
 .mini-bio a {
 	color: #49628c;
 	text-decoration: none;
 }
 
 .mini-bio img {
-	padding-bottom: 10px;
-	padding-right: 87px;
-	width: 130px;
+	padding: 0px 87px 10px 0px; 
+	width : 130px;
 	height: 161px;
+	width: 130px;
+}
+
+.author-site-link-icon {
+	height: 32px;
+	width: 32px;
+	padding: 5px 5px 0px 0px;
 }
 
 .news {
