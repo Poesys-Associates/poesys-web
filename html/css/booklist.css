@@ -5,7 +5,7 @@
 }
 
 .col1 {
-	display: none;
+	display: inline-block;
 }
 
 .list ul {
