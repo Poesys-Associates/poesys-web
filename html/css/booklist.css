@@ -8,6 +8,9 @@
 	list-style: none;
 	list-style-type: none;
 	margin: 2em 0;
+}
+
+.list ul p {
 	padding-right: 36px;
 	float: left;
 }
