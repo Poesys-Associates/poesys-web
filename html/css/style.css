@@ -435,6 +435,7 @@ header {
 	height: 176px;
 	top: -176px;
 	left: 50%;
+	margin-top: 100px;
 	margin-left: -498px;
 	text-align: center;
 }
@@ -562,39 +563,13 @@ footer {
 	letter-spacing: .1em;
 }
 
-#coming-soon div img {
-	float: left;
-	padding-right: 20px;
-	padding-bottom: 15px;
-}
-
-#coming-soon h3 {
-	padding-bottom: 10px;
-}
-
-#coming-soon span {
-	font-size: .8em;
-	color: #999;
-	font-family: "Lucida Grande", Tahoma, Verdana, Arial, sans-serif;
-}
-
-#coming-soon p {
-	margin-top: .5em;
-}
-
-#coming-soon ul {
-	list-style: none;
-	font-size: .9em;
-	padding: 0px;
-}
-
 #coming-soon li {
 	padding: 3px 0 3px 23px;
 }
 
 .featureDesc span {
 	font-size: .8em;
-	color: #999;
+	color: #003333;
 	font-family: "Lucida Grande", Tahoma, Verdana, Arial, sans-serif;
 }
 
