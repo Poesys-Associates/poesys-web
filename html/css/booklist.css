@@ -4,6 +4,10 @@
 	width: 652px;
 }
 
+.col1 {
+	display: none;
+}
+
 .list ul {
 	list-style: none;
 	list-style-type: none;
