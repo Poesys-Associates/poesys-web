@@ -6,7 +6,8 @@
 
 .col1 {
 	display: inline;
-	width: 652px;
+	width: 222px;
+	padding-right: 0px;
 }
 
 .list ul {
