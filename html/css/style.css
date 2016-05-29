@@ -489,7 +489,7 @@ h1 {
 h2 {
 	font-weight: 300;
 	font-size: 1.4em;
-	color: #49628c;
+	color: #343931;
 	padding: 0px;
 	margin: 0px;
 	line-height: 1em;
@@ -504,10 +504,6 @@ h2 span {
 	font-size: .45em;
 	color: #999;
 	font-family: "Lucida Grande", Tahoma, Verdana, Arial, sans-serif;
-}
-
-#sidebar h2 {
-	color: #343931;
 }
 
 h3 {
