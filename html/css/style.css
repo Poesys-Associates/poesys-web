@@ -7,10 +7,24 @@ audio, canvas, video {
 	display: inline-block;
 }
 
-audio:not ([controls] ) {
-	display: none;
-}
+audio
+:not
+ 
+(
+[
+controls
+]
+ 
+)
+{
+display
+:
+ 
+none
+;
 
+
+}
 [hidden] {
 	display: none;
 }
@@ -152,10 +166,22 @@ img {
 	vertical-align: middle;
 }
 
-svg:not (:root ) {
-	overflow: hidden;
-}
+svg
+:not
+ 
+(
+:root
+ 
+)
+{
+overflow
+:
+ 
+hidden
+;
 
+
+}
 figure {
 	margin: 0;
 }
@@ -795,6 +821,12 @@ ul.details li {
 	text-decoration: none;
 }
 
+.mini-bio img {
+	padding-bottom: 10px;
+	width: 130px;
+	height: 161px;
+}
+
 .news {
 	background: url('img/bg-news.png') bottom right no-repeat;
 	padding-bottom: 20px;
@@ -804,218 +836,4 @@ ul.details li {
 
 .news p {
 	padding: 0 60px 0 10px;
-}
-
-.fan-space {
-	padding-bottom: 30px;
-}
-
-.fan-space h2 {
-	padding-bottom: 15px;
-}
-
-.buy-options {
-	padding-bottom: 30px;
-	margin-bottom: 30px;
-	border-bottom: 1px solid #331a00;
-}
-
-.buy-options div {
-	padding: 15px 0 0;
-	margin-left: -5px;
-}
-
-.buy-options a {
-	display: block;
-	float: left;
-	padding: 5px 0 0 3px;
-}
-
-.same-series {
-	padding-bottom: 30px;
-	margin-bottom: 30px;
-	border-bottom: 1px solid #331a00;
-}
-
-.same-series ul {
-	list-style: none;
-	margin: 0px;
-	padding: 0;
-}
-
-.same-series li {
-	padding-top: 10px;
-}
-
-.same-series img {
-	padding-right: 10px;
-}
-
-.more-resources {
-	padding-bottom: 30px;
-	margin-bottom: 30px;
-	border-bottom: 1px solid #331a00;
-}
-
-.more-resources ul {
-	list-style: none;
-	margin: 0px;
-	padding: 0;
-}
-
-.more-resources li {
-	padding-top: 10px;
-	padding-top: 20px;
-}
-
-.more-resources li a span {
-	font-size: .75em;
-	display: block;
-	margin-left: 50px;
-}
-
-.more-resources img {
-	float: left;
-}
-
-.extras {
-	padding-bottom: 30px;
-}
-
-.extras h2 {
-	padding-bottom: 15px;
-}
-
-.extras ol {
-	margin: 0px;
-	padding-left: 25px;
-	padding-bottom: 10px;
-}
-
-.extras ol a {
-	font-size: .7em;
-}
-
-.biblio {
-	padding-bottom: 30px;
-	margin-bottom: 30px;
-	border-bottom: 1px solid #331a00;
-	background: url('img/bg-biblio.png');
-	background-repeat: no-repeat;
-}
-
-.biblio a {
-	padding-left: 100px;
-	display: block;
-}
-
-.bibliopage h2:first-child {
-	border-top: none;
-	margin-top: 0px;
-	padding-top: 0px;
-}
-
-.bibliopage h2 {
-	padding-top: 30px;
-	margin-top: 30px;
-	border-top: 1px solid #331a00;
-}
-
-.bibliopage ol li {
-	font-size: .8em;
-}
-
-.book-feature {
-	padding-bottom: 30px;
-	margin-bottom: 30px;
-	border-bottom: 1px solid #331a00;
-}
-
-.book-feature h2 {
-	padding-bottom: 20px;
-}
-
-.book-feature span {
-	display: block;
-	text-transform: none !important;
-	color: #999;
-	font-size: .8em;
-}
-
-.book-feature img {
-	float: left;
-}
-
-.book-feature div {
-	padding-left: 100px;
-}
-
-.book-feature p {
-	margin-top: 5px;
-}
-
-.chapterMenu {
-	padding-bottom: 30px;
-	margin-bottom: 30px;
-	border-bottom: 1px solid #331a00;
-}
-
-.chapterMenu ul {
-	list-style: none;
-	margin: 0 0 0 -3px;
-	padding: 20px 0 0;
-}
-
-.single-fanart .entry-content {
-	font-size: .9em;
-}
-
-.single-fanart .entry-content h4 {
-	margin-bottom: 0px;
-}
-
-.single-fanart .entry-content p {
-	margin: 5px 0;
-	line-height: 1.4em;
-}
-
-.single-fanart .entry-content p.intro {
-	margin: 20px 0;
-	font-size: 1.1em;
-	line-height: 1.6em;
-}
-
-.single-fanart .entry-content .col2 {
-	padding-bottom: 15px;
-}
-
-#book-reviews ol {
-	list-style: none;
-	padding-left: 0px;
-}
-
-#book-reviews ol>li {
-	padding-bottom: 10px;
-	margin-bottom: 20px;
-	border-bottom: 1px dotted #331a00;
-}
-
-#book-reviews ol>li:last-child {
-	padding-bottom: 0px;
-	margin-bottom: 0px;
-	border-bottom: none;
-}
-
-#book-reviews h3 {
-	margin-top: 20px;
-	padding-top: 20px;
-	border-top: 1px solid #331a00;
-}
-
-.comment-form-comment label {
-	display: block;
-}
-
-.wpcf7 textarea {
-	width: 400px;
 }
