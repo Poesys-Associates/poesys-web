@@ -437,10 +437,11 @@ header {
 	left: 50%;
 	margin-left: -498px;
 	text-align: center;
+	font-size: 3em
 }
 
 nav .menu {
-	padding-top: 100px;
+	padding-top: 75px;
 }
 
 nav .menu li {
