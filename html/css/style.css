@@ -477,10 +477,6 @@ nav .menu li {
 	font-weight: 300;
 }
 
-nav .menu li.current_page_item {
-	background: url('/img/bg-nav.png') bottom center no-repeat;
-}
-
 nav .menu li.current_page_item a {
 	color: #331a00;
 	font-weight: 500;
@@ -580,7 +576,6 @@ footer {
 
 .title-bar {
 	padding-bottom: 30px;
-	background: url('img/bg-top-shadow.png') bottom left repeat-x;
 }
 
 .title-bar span {
@@ -780,7 +775,6 @@ ul.details li {
 	padding: 50px 67px 40px 86px;
 	width: 258px;
 	margin-right: -67px;
-	background: url('img/bg-sidebar.png') top left no-repeat;
 }
 
 .mini-bio {
@@ -806,16 +800,6 @@ ul.details li {
 	font-size: .7em;
 }
 
-.mini-bio .fb {
-	background: url('img/bg-fb.jpg');
-	background-repeat: no-repeat;
-}
-
-.mini-bio .gr {
-	background: url('img/bg-gr.jpg');
-	background-repeat: no-repeat;
-}
-
 .mini-bio a {
 	color: #49628c;
 	text-decoration: none;
@@ -823,12 +807,12 @@ ul.details li {
 
 .mini-bio img {
 	padding-bottom: 10px;
+	padding-right: 87px;
 	width: 130px;
 	height: 161px;
 }
 
 .news {
-	background: url('img/bg-news.png') bottom right no-repeat;
 	padding-bottom: 20px;
 	margin-bottom: 30px;
 	border-bottom: 1px solid #331a00;
