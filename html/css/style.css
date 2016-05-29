@@ -435,9 +435,12 @@ header {
 	height: 176px;
 	top: -176px;
 	left: 50%;
-	margin-top: 100px;
 	margin-left: -498px;
 	text-align: center;
+}
+
+menu-header {
+	margin-top: 100px;
 }
 
 nav .menu {
