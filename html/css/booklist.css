@@ -1,5 +1,12 @@
 @CHARSET "US-ASCII";
 
+html {
+	background-repeat: repeat-y;
+}
+
+body {
+	background-repeat: repeat-y;
+}
 .list {
 	width: 652px;
 }
@@ -7,11 +14,6 @@
 .col1 {
 	width: 222px;
 	padding-right: 0px;
-}
-
-.col2 {
-	width: 652px;
-	float: right;
 }
 
 .list ul {
