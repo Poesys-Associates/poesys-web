@@ -25,3 +25,7 @@ body {
 	padding-right: 36px;
 	float: left;
 }
+
+.list .book {
+	top-margin: 2em;
+}
