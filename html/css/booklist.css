@@ -14,6 +14,11 @@ body {
 .col1 {
 	width: 222px;
 	padding-right: 0px;
+        padding-top: 2em;
+}
+
+.col5 {
+        padding-top: 2em;
 }
 
 .list ul {
@@ -24,8 +29,4 @@ body {
 .list ul p {
 	padding-right: 36px;
 	float: left;
-}
-
-.list .book {
-	margin-top: 2em;
 }
