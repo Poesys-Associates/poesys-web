@@ -1,11 +1,11 @@
 @CHARSET "US-ASCII";
 
-.col1 {
-	width: 222px;
-	padding-right: 0px;
-	padding-top: 2em;
+.book-image {
+	float: left;
+	padding: 0px 16px 0px 0px;
+	margin-top: 2em;
 }
 
-.col5 {
-	padding-top: 2em;
+.book-text {
+	margin-top: 2em;
 }
