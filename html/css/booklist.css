@@ -10,7 +10,7 @@
 }
 
 .col2 {
-	width: 652.px;
+	width: 652px;
 }
 
 .list ul {
@@ -20,5 +20,5 @@
 
 .list ul p {
 	padding-right: 36px;
-	float: right;
+	float: left;
 }
