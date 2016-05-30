@@ -1,0 +1,11 @@
+@CHARSET "US-ASCII";
+
+.col1 {
+	width: 222px;
+	padding-right: 0px;
+	padding-top: 2em;
+}
+
+.col5 {
+	padding-top: 2em;
+}
