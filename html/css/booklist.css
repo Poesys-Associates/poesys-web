@@ -9,10 +9,13 @@
 	padding-right: 0px;
 }
 
+.col2 {
+	width: 652.px;
+}
+
 .list ul {
 	list-style: none;
 	list-style-type: none;
-	margin: 2em 0;
 }
 
 .list ul p {
