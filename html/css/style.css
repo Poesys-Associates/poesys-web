@@ -7,46 +7,6 @@ audio, canvas, video {
 	display: inline-block;
 }
 
-audio
-
-
-
-
-:not
-
-
- 
-
-
-(
-[
-controls
-]
-
-
- 
-
-
-)
-{
-display
-
-
-
-
-:
-
-
- 
-
-
-none
-
-
-
-
-;
-}
 [hidden] {
 	display: none;
 }
@@ -188,44 +148,6 @@ img {
 	vertical-align: middle;
 }
 
-svg
-
-
-
-
-:not
-
-
- 
-
-
-(
-:root
-
-
- 
-
-
-)
-{
-overflow
-
-
-
-
-:
-
-
- 
-
-
-hidden
-
-
-
-
-;
-}
 figure {
 	margin: 0;
 }
@@ -863,4 +785,11 @@ ul.details li {
 
 .news p {
 	padding: 0 60px 0 10px;
+}
+
+.mail-signup {
+	font-family: "Lucida Grande", Tahoma, Verdana, Arial, sans-serif;
+	background-color: transparent;
+	font-size: 1em;
+	line-height: 1.5em;
 }
