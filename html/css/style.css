@@ -162,10 +162,6 @@ fieldset {
 	padding: 0;
 }
 
-label {
-	cursor: pointer;
-}
-
 legend {
 	border: 0;
 	padding: 0;
@@ -787,10 +783,34 @@ ul.details li {
 	padding: 0 60px 0 10px;
 }
 
-.mail-signup {
-	font-family: "Lucida Grande", Tahoma, Verdana, Arial, sans-serif;
-	background-color: transparent;
-	font-size: 1em;
-	line-height: 1.5em;
-	clear: left;
+.email-signup {
+        font-family: "Lucida Grande", Tahoma, Verdana, Arial, sans-serif;
+        background-color: transparent;
+        font-size: 1em;
+        line-height: 1.5em;
+        clear: both;
+}
+
+.email-signup label {
+        font-weight: bold;
+}
+
+.email-signup input {
+        padding: 0 0.4em;
+        min-height: 32px;
+        width: 50%;
+        border-radius: 3px;
+        border: 1px solid #999;
+        -webkit-appearance: none;
+        background-color: #ebe2c8;
+}
+
+.email-signup input.button {
+        font-family: "Lucida Grande", Tahoma, Verdana, Arial, sans-serif;
+        width: 15%;
+        background-color: #ebe2c8;
+        border: 0 none;
+        margin: 10px 5px 10px 0;
+        transition: all 0.23s ease-in-out 0s;
+
 }
