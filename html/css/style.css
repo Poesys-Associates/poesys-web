@@ -792,4 +792,5 @@ ul.details li {
 	background-color: transparent;
 	font-size: 1em;
 	line-height: 1.5em;
+	clear: left;
 }
