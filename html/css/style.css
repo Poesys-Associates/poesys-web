@@ -737,6 +737,7 @@ ul.details li {
 
 .mini-bio {
 	padding-top: 150px;
+	clear: both;
 }
 
 .mini-bio span {
